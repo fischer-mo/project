@@ -49,9 +49,9 @@ inflation %>%
   pivot_longer(c(expectation, perception)) %>% 
   ungroup() %>% 
   ggplot() +
-  geom_line(aes(date, value, color = name)) +
-  NULL
-```
+  geom_line(aes(date, value, color = name)) + theme_minimal() +
+  NULL 
+``` 
 
 This is *bold* and this is **italic**
 
